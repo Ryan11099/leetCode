@@ -126,7 +126,7 @@ public class isValid {
 
     public static void main(String[] args) {
         isValid isValid = new isValid();
-        boolean valid = isValid.isValid("[(])");
+        boolean valid = isValid.isValid("[()");
         System.out.println(valid);
     }
 }
